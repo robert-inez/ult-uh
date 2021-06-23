@@ -11,6 +11,7 @@ const FormInput = ({name, label, required}) => {
 					render={({ field }) => <TextField {...field} label={label} fullWidth   required/>}
 					control={control}
 					name={name}
+					defaultValue=''
 				/>
 			</Grid>
 		</>

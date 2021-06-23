@@ -1,7 +1,7 @@
 import React from 'react';
-import {AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography} from '@material-ui/core';
+import {AppBar, Toolbar, IconButton, Badge, MenuItem, Menu, Typography, CssBaseline} from '@material-ui/core';
 import {ShoppingCart} from '@material-ui/icons';
-import logo from '../../assets/commerce.png';
+import logo from '../../assets/ultuh.png';
 import useStyles from './NavigationStyles';
 import {Link, useLocation} from 'react-router-dom';
 
@@ -11,10 +11,11 @@ const Navigation = ({totalItems}) => {
 
 	return (
 		<>
+			<CssBaseline />
 			<AppBar position = 'fixed' className = {classes.appBar} color = 'inherit'>
 				<Toolbar>
 					<Typography component = {Link} to = '/' variant = 'h6' className = {classes.title} color = 'inherit'>
-						<img src = {logo} alt = 'Commerce.js' height = '25px' className = {classes.image} />
+						<img src = {logo} alt = 'Ul-Tuh Logo' height = '25px' className = {classes.image} />
 						Ult-uh
 					</Typography>
 					<div className = {classes.grow} />

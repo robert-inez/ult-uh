@@ -9,7 +9,7 @@ export default makeStyles((theme) => ({
 		[theme.breakpoints.up('sm')]: {
 			width: `calc(100% - ${drawerWidth}px)`,
 			marginLeft: drawerWidth,
-			background: 'linear-gradient(45deg, #EE9CA7 30%, #FFDDE1 90%)',
+			background: 'linear-gradient(45deg, #4568dc 30%, #b06ab3 90%)',
 		},
 	},
 	title: {
