@@ -17,6 +17,7 @@ export default makeStyles((theme) => ({
 		alignItems: 'center',
 		display: 'flex',
 		textDecoration: 'none',
+		fontFamily: 'Oleo Script'
 	},
 	image: {
 		marginRight: '10px',

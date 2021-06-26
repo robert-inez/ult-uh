@@ -34,12 +34,12 @@ const Navigation = ({totalItems}) => {
 			<CssBaseline />
 			<AppBar position = 'fixed' className = {classes.appBar} color = 'inherit'>
 				<Toolbar>
-					<ThemeProvider theme={theme}>
+					{/*<ThemeProvider theme={theme}>*/}
 					<Typography component = {Link} to = '/' variant = 'h6' className = {classes.title} color = 'inherit'>
 						<img src = {logo} alt = 'Ul-Tuh Logo' height = '25px' className = {classes.image} />
 						Ult-uh
 					</Typography>
-					</ThemeProvider>
+					{/*</ThemeProvider>*/}
 					<div className = {classes.grow} />
 					{location.pathname === '/' && (
 						<div className = {classes.button}>
